@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOKS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <script src="app.js"></script>
+  <button class="aa" id="back-to-top-btn" onclick="topFunction()">Top
+   
+  </button>
+  <div>
+  <div>
+    
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#moon">
+        <img class="alpha" src="images/logo.png" alt="">
+      </a>
+      <span>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+          <a class="navbar-brand"></a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <span class="navbar-text">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                CATEGORIES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#hor" target="_blank">Horror Drama</a>
+                <a class="dropdown-item" href="#act" target="_blank">Action & Adventure</a>
+                <a class="dropdown-item" href="#fan" target="_blank">Fantasy</a>
+                <a class="dropdown-item" href="#lif" target="_blank">life lesson</a>
+                <a class="dropdown-item" href="#det" target="_blank">Detective and Mystery</a>
+                <a class="dropdown-item" href="#com" target="_blank">Comic Book or Graphic Novel</a>
+                <a class="dropdown-item" href="#his" target="_blank">Historical Fiction</a>
+                <a class="dropdown-item" href="#lit" target="_blank">Literary Fiction</a>
+                <a class="dropdown-item" href="#rom" target="_blank">Romance</a>
+                <a class="dropdown-item" href="#sho" target="_blank">Short Stories</a>
+                <a class="dropdown-item" href="#sus" target="_blank">Suspense and Thrillers</a>
+                <a class="dropdown-item" href="#bio" target="_blank">Biographies and Autobiographies</a>
+                <a class="dropdown-item" href="#poe" target="_blank">Poetry</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target="_blank">ANOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown toggle" href="account.html" target="_blank">
+                <i class="fa fa-user-circle-o" aria-hidden="true">
+                  
+                </i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </nav>
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-slide" data-ride="carousel">
+        <div class="carousel-item active">
+          <img src="images/slide 4.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/unnamed.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/dc77c04e5016016339c655c4035a36ed.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide 3.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="topCard">
+      <div class="card1">
+        <div>
+          <i class="fa fa-truck" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>Free Shipping</h3>
+        </div>
+      </div>
+      <div class="card2">
+        <div>
+          <i class="fa fa-headphones" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>24/7 Support</h3>
+        </div>
+      </div>
+      <div class="card3">
+        <div>
+          <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>Best Quality</h3>
+        </div>
+      </div>
+
+    </div>
+<div class=newBooks">
+  <div id="hor">
+  <h1 class="gama">Horror Drama</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="images/Outsider.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Outsider</h5>
+            <p class="card-text">Rs: 250</p>
+            <a href="#" class="btn btn-primary">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="images/horror (1).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Dracula</h5>
+            <p class="card-text">Rs: 250</p>
+            <a href="#" class="btn btn-primary">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="images/horror 2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Last Days</h5>
+            <p class="card-text">Rs: 250</p>
+            <a href="#" class="btn btn-primary">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="images/horror 3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Charnel House</h5>
+            <p class="card-text"> Rs: 250</p>
+            <a href="#" class="btn btn-primary">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+<div id="act">
+  <h1 class="gama">Action and Adventure</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/action1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Adventurers Guild</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/action2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Trials of Apollo</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/action3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Agent 21 CodeBreaker</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/action4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Magnus Chase</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="fan">
+<h1 class="gama">Fantasy</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/fan1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mark of the Gods</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/fan2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cinders</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/fan3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Netherworld</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/fan4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">A Curse so Dark and Lonely</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div id="lif">
+<h1 class="gama">life lesson</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/li1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">This I Believe</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/li2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Life of Buddha</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/li3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remarkable WOmen</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/li4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Life's Greatest Lesson</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="com">
+<h1 class="gama">Comic Book</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/co1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Coraline</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/co2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Amazing SpiderMan</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/c03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stardust</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/co4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eid Ul Adha & Hajj</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="his">
+<h1 class="gama">Historical Fiction</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/hi1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Orphan's War</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/h12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">the tattooist of Auschwitz</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/hi3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">A women of War</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/hi4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">American Princess</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div id="lit">
+<h1 class="gama">Literary Fiction</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/lf1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">What we Set in Motion</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/lf2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monstrous Lies</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/lf3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mice and Men</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/lf4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lincoln in the Bardo</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div id="rom">
+<h1 class="gama">Romance</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ro1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dare to love a Duke</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ro2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Wilde in Love</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ro3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cold hearted rake</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ro4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Forest Kingdom</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div id="sho">
+
+<h1 class="gama">Short Stories</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/sh1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Blue Princess</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/sh2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Russain</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/sh3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Fall of the House of Usher</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/sh4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Boat</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div id="sus">
+<h1 class="gama">Suspense and Thrillers</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ss1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Shadows of Summer</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ss2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Perfect Smile</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ss3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curtain Call</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/ss4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">His Name was Death</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="bio">
+<h1 class="gama">Biographies and Autobiographies</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/b1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">I Am Woman</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/b2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Einstein</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/b3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">This is not a love story</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/b4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Big Words little Actions</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="poe">
+<h1 class="gama">Poetry</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/p1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memories in a starry night</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/p2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Saturday Night Poems</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/p3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">War Poems</h5>
+          <p class="card-text">Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/p4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Sky</h5>
+          <p class="card-text"> Rs: 250</p>
+          <a href="#" class="btn btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+</div>
+
+<div class="tree">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Quote
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Theodore Roosevelt said:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Believe you can and you're halfway there.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">go back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="animal">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/496608bfeedd20ca4f6388d721cc8392.gif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/1931cd57dd440f6fe44f591a50a4ca8a.gif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div id="moon" class="okay">
+  <h1>Have a look</h1>
+</div>
+<div  class="moon">
+  <h1>Benefits of Reading.</h1>
+  <p>
+    When was the last time you read a good book and went on an adventure, learned something new, exercised your brain, and fed your curiosities? <br> <br
+    >
+
+From the moment we start school, our educators begin teaching us the fundamentals of reading. We learn our alphabet and the unique sounds that each letter makes. Soon, we can read words and full sentences. And before we know it, we’re reading everything from posters to what’s printed on cereal boxes to subtitles on movies. <br>
+<br>
+
+But why are we really taught to read? Is it to be able to read street signs and directions, study our textbooks and take tests? <br>
+<br>
+
+It’s true that we were all taught to read to comprehend better and communicate. However, the benefits of reading go far beyond that. <br>
+<br>
+
+The more we read, the more we understand the world around us. And when we read books, the more we discover life beyond what we already know. Here are more reasons that highlight the importance of reading books. <br>
+  </p>
+  <h3>
+  Books Make Us Better Communicators.
+  </h3>
+  <p>Because books improve our vocabulary, our communications skills improve. Reading enhances our language skills and develops fluency, allowing us to express our thoughts and ideas better</p>
+<h3>
+  Books Educate Us.
+</h3>
+<p>
+  Books quench our thirst for knowledge. Through books, we learn about how things work, understand different cultures, and comprehend the history of things. We can learn new languages, how to improve ourselves and even how to build things. The right books are full of useful information that helps us become smarter, sharper, more skilled and more open to new ideas.
+</p>
+<h3>
+  Books Reduce Stress
+</h3>
+<p>
+
+
+Whether it’s science fiction, YA, romance novels, or autobiographies, books can help you relieve tension and relax. Books allow us to escape the stress and anxiety of everyday life by allowing us to immerse ourselves in another world or involve us in a topic we find compelling. And because there is a book out there on just about every topic in the world, it’s possible for everyone to find the perfect book that will keep them focused and at ease.
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" style="font-size:1vw;">
+<img src="images/books-opened.jpg" style="width:100%;" alt="">
+<div class="top-left">
+  <h1 class="hea"> Create an Account </h1>
+  <form>
+    <div class="for">
+      Username <input class='username' type='text' placeholder='Username' required>*<br> <br> <br>
+      Password <input class='password' type='password' name='psw' placeholder='Password' required>*<br> <br> <br>
+      Retype Password <input class='password' type='password' name='repsw' placeholder='Retype Password' required>* 
+      <input type='button' onclick='check(this.form)' class='passwordcheck' value='Check Password'><br> <br> <br>
+      Email <input class='email' type='text' placeholder='johndoe476@gmail.com' required>*<br> <br>  <br>
+      Phone Number <input class='number' type='text' placeholder='+92'><br> <br> <br>
+      Gender *<br>
+      <input type='radio' name='gender' value='Male'> Male<br> <br>
+      <input type='radio' name='gender' value='Female'> Female<br> <br> <br>
+      <input class="btn-alert" type='submit' value='Create Account'>
+    </div>
+  </form>
+</div>
+</div>
+</body>
+</html>

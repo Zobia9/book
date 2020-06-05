@@ -1,0 +1,282 @@
+
+.navbar{
+    background-color: #80CBC4 !important;
+
+    
+}
+
+
+
+
+
+.nav-link{
+    font-weight: bold !important;
+}
+
+.alpha{
+    width: 90px;
+    height: 50px;
+}
+
+
+.fa-shopping-cart, .fa-user-circle-o{
+    font-size: 32px !important;
+}
+
+.topCard{
+    margin-top: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #80CBC4
+}
+
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 42px !important;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    color: #80CBC4;
+    background-color: white;
+    box-shadow: 3px 5px 8px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.d-block{
+    height: 800px;
+    width: auto;
+}
+
+.newBooks{
+    margin-top: 10px;
+}
+
+.card{
+    height: auto;
+    width: 200px;
+    margin-top: 20px;
+    color: rgb(83, 139, 134);
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #80CBC4;
+
+}
+
+
+.gama{
+    text-align: center;
+    margin-top: 30px;
+    color: #80CBC4;
+    width: 400px;
+    margin-left: 470px;
+    margin-bottom: 10px;
+    text-shadow: 2px 5px 4px black;
+    background-color: lightcyan;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+.tree{
+    width: 300px;
+    text-align: center;
+    background-color: #80CBC4;
+    margin-left: 580px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: lightcyan;
+    text-shadow: 2px 5px 4px black;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+.animal{
+    margin-top: 20px;
+}
+
+
+.moon{
+    width: 700px;
+    height: auto;
+    margin-left: 340px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-indent: 5px;
+    color: rgb(83, 139, 134);
+    background-color: lightcyan;
+    font-size: 20px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+
+.okay{
+    text-align: center;
+    margin-top: 30px;
+    color: #80CBC4;
+    text-shadow: 2px 5px 4px black;
+    background-color: lightcyan;
+    width: 400px;
+    margin-left: 470px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+.aa{
+    font-size: large;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: lightcyan;
+    color: rgb(83, 139, 134);
+    cursor: pointer;
+    border: 3px solid rgb(83, 139, 134);
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+  
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+    background-color:  rgb(83, 139, 134);
+    color: lightcyan;  
+  }
+
+  .ano{
+    text-align: center;
+    margin-top: 10px;
+    color: #80CBC4;
+    width: 400px;
+    height: 50px;
+    margin-left: 470px;
+    margin-bottom: 10px;
+    text-shadow: 5px 1px 3px black;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+.more{
+    width: 1120px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 5px;
+    text-align: justify;
+    text-indent: 5px;
+    color: #80CBC4;
+    font-size: 23px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+.go{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #80CBC4;
+    width: 300px;
+    height: 30px;
+    margin-left: 510px;
+    color: rgb(83, 139, 134);
+    background-color: lightcyan;
+    font-size: 23px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+.for{
+    text-align: center;
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 300px;
+    text-align: justify;
+    text-indent: 0px;
+    text-shadow: 5px 1px 3px black;
+    color: #80CBC4;
+    font-size: 20px;
+    box-shadow: 10px 5px 10px gray;
+    font-size:1.3vw;
+}
+
+
+.hea{
+    text-align: center;
+    margin-top: 30px;
+    color: #80CBC4;
+    width: 400px;
+    margin-left: 380px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+.btn-alert{
+    width: 50%;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background-color:#80CBC4;
+    height: 30px;
+}
+
+.le{
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .containe {
+    position: relative;
+    text-align: center;
+  }
+
+  div.more {
+    background-color: lightgrey;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    div.more {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.more {
+      font-size: 30px;
+    }
+  }
